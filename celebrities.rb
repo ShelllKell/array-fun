@@ -8,16 +8,12 @@ end
 
 
 def name_lengths(celebs)
-  celebs.map do |c|
-    c.length
-  end
+  celebs.map { |c| c.length }
 end
 
 
 def reverse_celebrity_names(celebs)
-  celebs.map do |c|
-    c.reverse
-  end
+  celebs.map { |c| c.reverse }
 end
 
 
@@ -46,9 +42,7 @@ end
 
 def reverse_case_celebrities_names(celebs)
   array = []
-  celebs.map do |c|
-    array << c.swapcase
-  end
+  celebs.map { |c| array << c.swapcase }
   array
 end
 
